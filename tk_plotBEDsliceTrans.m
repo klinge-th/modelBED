@@ -1,10 +1,12 @@
-function tk_plotBEDsliceTrans(BED,mask)
+function fig = tk_plotBEDsliceTrans(BED,mask)
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % function to plot a transversal slice from the BED cube and give a slider
 % to control which slice is plotted
-% INPUT
+% INPUT -------------------------------------------------------------------
 % BED:  3D-cube containing the BED data
 % mask: 3D-cube (binary) masking the VOI (optional)
+% OUTPUT ------------------------------------------------------------------
+% fig:  figure handle
 % 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
