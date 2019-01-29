@@ -35,8 +35,8 @@ function BED = tk_calc_BED(shots,dose,mu_fast,mu_slow,g,c,ABratio)
 %% calculations
 
 % get factor depending on treatment protocol
-phi_fast = tk_calcPhi_single(shots,dose,mu_fast,g);
-phi_slow = tk_calcPhi_single(shots,dose,mu_slow,g);
+phi_fast = tk_calcPhi(shots,dose,mu_fast,g);
+phi_slow = tk_calcPhi(shots,dose,mu_slow,g);
 
 % calculate BED with partition 
 % pre-process dose terms
