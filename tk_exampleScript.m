@@ -44,3 +44,8 @@ fig3.Name = 'Shot number 3';
 % only plot BED in volume of interest
 VOIBEDfig = tk_plotBEDsliceTrans(BED,VOImask);
 VOIBEDfig.Name = 'BED in VOI';
+
+%% timeit() to show runtime of function with these inputs
+
+f = @() tk_calc_BED(shots,dose,mu_fast,mu_slow,g,c,ABratio);
+disp(['it took ' num2str(timeit(f,1)) ' s to calculate the BED matrix'])
