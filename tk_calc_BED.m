@@ -40,9 +40,9 @@ phi_slow = tk_calcPhi(shots,dose,mu_slow,g);
 
 % calculate BED with partition 
 % pre-process dose terms
-dose_tot = squeeze(sum(dose,3));
+dose_tot = squeeze(sum(dose,4));
 doseSq = dose.*dose;
-doseSq_tot = squeeze(sum(doseSq,3));
+doseSq_tot = squeeze(sum(doseSq,4));
 
 % BED
 BED = dose_tot...

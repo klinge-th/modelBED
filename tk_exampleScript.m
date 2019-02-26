@@ -38,7 +38,7 @@ BEDfig.Name = 'BED';
 
 %% further plot examples
 % only plot 3rd shot
-fig3 = tk_plotBEDsliceTrans(squeeze(dose(:,:,3,:)));
+fig3 = tk_plotBEDsliceTrans(squeeze(dose(:,:,:,3)));
 fig3.Name = 'Shot number 3';
 
 % only plot BED in volume of interest
