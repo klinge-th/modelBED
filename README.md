@@ -1,5 +1,5 @@
 # modelBED
-Code to calculate the 31x31x31 BED matrix from the exported information of a custom version of Leksell GammaPlan 10.1 using MATLAB.  
+Code to calculate the 31x31x31 BED matrix from physical dose treatment plans for the Leksell Gamma Knife using MATLAB. It was developed to work with the exported information from a custom version of Leksell GammaPlan 10.1, but will handle any dose data adhering to [the required input format](#inputs-for-BED-calculation).  
 The script 'tk_exampleScript.m' shows an example of the usage of the MATLAB functions. It uses a mock data set that was artificially created for this purpose to calculate and plot the BED distribution.
 
 ## Quickstart Guide
