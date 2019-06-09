@@ -19,3 +19,11 @@ Arrays like shots (containing the information about every single shot) and the d
 
 <a name="myfootnote1">1</a>: If you use your own dose ditributions, their orientation does not matter as long as the individual 3D dose distributions are iterated along the 4th dimension of the 4D cube.
 
+## publications of interest
+* W. T. Millar and P. A. Canney, ‘Derivation and application of equations describing the effects of fractionated protracted irradiation, based on multiple and incomplete repair processes. Part I. Derivation of equations.’, Int. J. Radiat. Biol., vol. 64, no. 3, pp. 275–91, Sep. 1993.
+* L. A. Pop, W. T. Millar, M. van der Plas, and A. J. van der Kogel, ‘Radiation tolerance of rat spinal cord to pulsed dose rate (PDR-) brachytherapy: the impact of differences in temporal dose distribution’, Radiother. Oncol., vol. 55, no. 3, pp. 301–315, 2000.
+* J. W. Hopewell, W. T. Millar, and C. Lindquist, ‘Radiobiological principles: their application to gamma knife therapy.’, Prog. Neurol. Surg., vol. 25, pp. 39–54, 2012.
+* J. W. Hopewell, W. T. Millar, C. Lindquist, H. Nordström, P. Lidberg, and J. Gårding, ‘Application of the concept of biologically effective dose (BED) to patients with Vestibular Schwannomas treated by radiosurgery.’, J. Radiosurgery SBRT, vol. 2, no. 4, 2013.
+* J. W. Hopewell, W. T. Millar, I. Paddick, and C. Lindquist, ‘Impact of Decaying Dose-rate in Gamma Knife Radiosurgery’, J. Radiosurgery SBRT, vol. 2, no. 3, pp. 251–253, 2013.
+* W. T. Millar et al., ‘The role of the concept of biologically effective dose (BED) in treatment planning in radiosurgery.’, Phys. Medica PM Int. J. Devoted Appl. Phys. Med. Biol. Off. J. Ital. Assoc. Biomed. Phys. AIFB, vol. 31, no. 6, pp. 627–33, Sep. 2015.
+* B. Jones and J. W. Hopewell, ‘Modelling the influence of treatment time on the biological effectiveness of single radiosurgery treatments: derivation of “protective” dose modification factors’, Br. J. Radiol., p. 20180111, Aug. 2018.
